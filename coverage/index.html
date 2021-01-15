@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-01-14T19:17:33+00:00">2021-01-14T19:17:33+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-01-15T13:04:24+00:00">2021-01-15T13:04:24+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  97.48%
+  97.6%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.65
+         2.73
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>159</b> relevant lines,
-    <span class="green"><b>155</b> lines covered</span> and
+    <b>167</b> relevant lines,
+    <span class="green"><b>163</b> lines covered</span> and
     <span class="red"><b>4</b> lines missed. </span>
     (<span class="green">
-  97.48%
+  97.6%
 </span>
 )
   </div>
@@ -72,21 +72,21 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#2e64c6b03877eeb9a8fdc286bce966bf77046d1f" class="src_link" title="lib/ledger.rb">lib/ledger.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">93.65 %</td>
-            <td class="cell--number">162</td>
-            <td class="cell--number">63</td>
-            <td class="cell--number">59</td>
+            <td class="green strong cell--number t-file__coverage">93.85 %</td>
+            <td class="cell--number">166</td>
+            <td class="cell--number">65</td>
+            <td class="cell--number">61</td>
             <td class="cell--number">4</td>
-            <td class="cell--number">5.16</td>
+            <td class="cell--number">5.45</td>
             
           </tr>
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#1bb8abe4e95e5e17cca71f7180db3c2b9171b38d" class="src_link" title="spec/ledger_spec.rb">spec/ledger_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">165</td>
-            <td class="cell--number">96</td>
-            <td class="cell--number">96</td>
+            <td class="cell--number">173</td>
+            <td class="cell--number">102</td>
+            <td class="cell--number">102</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -114,7 +114,7 @@
     <h3>lib/ledger.rb</h3>
     <h4>
       <span class="green">
-  93.65%
+  93.85%
 </span>
 
       lines covered
@@ -123,8 +123,8 @@
     
 
     <div class="t-line-summary">
-      <b>63</b> relevant lines.
-      <span class="green"><b>59</b> lines covered</span> and
+      <b>65</b> relevant lines.
+      <span class="green"><b>61</b> lines covered</span> and
       <span class="red"><b>4</b> lines missed.</span>
     </div>
 
@@ -164,23 +164,12 @@
 
             
 
-            <code class="ruby">attr_accessor :transactions, :current_holdings</code>
+            <code class="ruby">attr_accessor :transactions, :current_holdings, :balance, :dividends</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="4">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">attr_reader :balance</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="5">
+          <li class="never" data-hits="" data-linenumber="4">
             
             
 
@@ -191,7 +180,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="6">
+          <li class="covered" data-hits="1" data-linenumber="5">
             <span class="hits">1</span>
             
 
@@ -202,8 +191,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="20" data-linenumber="7">
-            <span class="hits">20</span>
+          <li class="covered" data-hits="21" data-linenumber="6">
+            <span class="hits">21</span>
             
 
             
@@ -213,8 +202,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="20" data-linenumber="8">
-            <span class="hits">20</span>
+          <li class="covered" data-hits="21" data-linenumber="7">
+            <span class="hits">21</span>
             
 
             
@@ -224,8 +213,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="20" data-linenumber="9">
-            <span class="hits">20</span>
+          <li class="covered" data-hits="21" data-linenumber="8">
+            <span class="hits">21</span>
             
 
             
@@ -235,13 +224,24 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="20" data-linenumber="10">
-            <span class="hits">20</span>
+          <li class="covered" data-hits="21" data-linenumber="9">
+            <span class="hits">21</span>
             
 
             
 
             <code class="ruby">    @ledger = []</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="21" data-linenumber="10">
+            <span class="hits">21</span>
+            
+
+            
+
+            <code class="ruby">    @dividends = []</code>
           </li>
         </div>
       
@@ -279,8 +279,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="5" data-linenumber="14">
-            <span class="hits">5</span>
+          <li class="covered" data-hits="6" data-linenumber="14">
+            <span class="hits">6</span>
             
 
             
@@ -290,8 +290,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="5" data-linenumber="15">
-            <span class="hits">5</span>
+          <li class="covered" data-hits="6" data-linenumber="15">
+            <span class="hits">6</span>
             
 
             
@@ -301,8 +301,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="5" data-linenumber="16">
-            <span class="hits">5</span>
+          <li class="covered" data-hits="6" data-linenumber="16">
+            <span class="hits">6</span>
             
 
             
@@ -725,12 +725,56 @@
 
             
 
+            <code class="ruby">  def dividend(market, amount)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="55">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @dividends &lt;&lt; {:market =&gt; market, :amount =&gt; amount }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="56">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="57">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="58">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">  def check_current_holdings_of(market)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="29" data-linenumber="55">
+          <li class="covered" data-hits="29" data-linenumber="59">
             <span class="hits">29</span>
             
 
@@ -741,7 +785,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="10" data-linenumber="56">
+          <li class="covered" data-hits="10" data-linenumber="60">
             <span class="hits">10</span>
             
 
@@ -752,7 +796,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="5" data-linenumber="57">
+          <li class="covered" data-hits="5" data-linenumber="61">
             <span class="hits">5</span>
             
 
@@ -763,7 +807,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="58">
+          <li class="never" data-hits="" data-linenumber="62">
             
             
 
@@ -774,7 +818,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="5" data-linenumber="59">
+          <li class="covered" data-hits="5" data-linenumber="63">
             <span class="hits">5</span>
             
 
@@ -785,7 +829,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="60">
+          <li class="never" data-hits="" data-linenumber="64">
             
             
 
@@ -796,57 +840,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="61">
+          <li class="never" data-hits="" data-linenumber="65">
             
             
 
             
 
             <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="62">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="63">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  def what_is_current_holding_of(market)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="2" data-linenumber="64">
-            <span class="hits">2</span>
-            
-
-            
-
-            <code class="ruby">    if current_holding_of(market) == true</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="10" data-linenumber="65">
-            <span class="hits">10</span>
-            
-
-            
-
-            <code class="ruby">    all = @transactions.select { |holding| holding[:market] === market }</code>
           </li>
         </div>
       
@@ -857,12 +857,56 @@
 
             
 
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="67">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def what_is_current_holding_of(market)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="68">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    if current_holding_of(market) == true</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="10" data-linenumber="69">
+            <span class="hits">10</span>
+            
+
+            
+
+            <code class="ruby">    all = @transactions.select { |holding| holding[:market] === market }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="70">
+            
+            
+
+            
+
             <code class="ruby">      # puts all.length</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="67">
+          <li class="never" data-hits="" data-linenumber="71">
             
             
 
@@ -873,7 +917,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="68">
+          <li class="never" data-hits="" data-linenumber="72">
             
             
 
@@ -884,7 +928,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="5" data-linenumber="69">
+          <li class="covered" data-hits="5" data-linenumber="73">
             <span class="hits">5</span>
             
 
@@ -895,7 +939,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="5" data-linenumber="70">
+          <li class="covered" data-hits="5" data-linenumber="74">
             <span class="hits">5</span>
             
 
@@ -906,7 +950,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="71">
+          <li class="covered" data-hits="2" data-linenumber="75">
             <span class="hits">2</span>
             
 
@@ -917,7 +961,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="72">
+          <li class="covered" data-hits="2" data-linenumber="76">
             <span class="hits">2</span>
             
 
@@ -928,7 +972,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="73">
+          <li class="covered" data-hits="2" data-linenumber="77">
             <span class="hits">2</span>
             
 
@@ -939,7 +983,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="74">
+          <li class="never" data-hits="" data-linenumber="78">
             
             
 
@@ -950,7 +994,7 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="75">
+          <li class="missed" data-hits="0" data-linenumber="79">
             
             
 
@@ -961,57 +1005,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="76">
+          <li class="never" data-hits="" data-linenumber="80">
             
             
 
             
 
             <code class="ruby">    end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="77">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="78">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="79">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  def current_holding_of(market)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="9" data-linenumber="80">
-            <span class="hits">9</span>
-            
-
-            
-
-            <code class="ruby">    check_current_holdings_of(market)</code>
           </li>
         </div>
       
@@ -1044,29 +1044,29 @@
 
             
 
-            <code class="ruby">  def tesst</code>
+            <code class="ruby">  def current_holding_of(market)</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="84">
-            
-            
-
+          <li class="covered" data-hits="9" data-linenumber="84">
+            <span class="hits">9</span>
             
 
-            <code class="ruby">    @current_holdings.each_with_index do | market, book_cost |</code>
+            
+
+            <code class="ruby">    check_current_holdings_of(market)</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="85">
+          <li class="never" data-hits="" data-linenumber="85">
             
             
 
             
 
-            <code class="ruby">      puts &quot;#{market} is number #{index} in the array&quot;</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -1077,40 +1077,40 @@
 
             
 
-            <code class="ruby">    end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="87">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="88">
-            
-            
-
-            
-
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="89">
+          <li class="covered" data-hits="1" data-linenumber="87">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def tesst</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="88">
             
             
 
             
 
-            <code class="ruby">  # def update_average_buy_price(market)</code>
+            <code class="ruby">    @current_holdings.each_with_index do | market, book_cost |</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="89">
+            
+            
+
+            
+
+            <code class="ruby">      puts &quot;#{market} is number #{index} in the array&quot;</code>
           </li>
         </div>
       
@@ -1121,7 +1121,7 @@
 
             
 
-            <code class="ruby">  #   if current_holding_of(market) == true</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
@@ -1132,7 +1132,7 @@
 
             
 
-            <code class="ruby">  #</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -1143,7 +1143,7 @@
 
             
 
-            <code class="ruby">  #   end</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -1154,7 +1154,7 @@
 
             
 
-            <code class="ruby">  # end</code>
+            <code class="ruby">  # def update_average_buy_price(market)</code>
           </li>
         </div>
       
@@ -1165,7 +1165,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  #   if current_holding_of(market) == true</code>
           </li>
         </div>
       
@@ -1176,7 +1176,7 @@
 
             
 
-            <code class="ruby">  # def update_quantity_held</code>
+            <code class="ruby">  #</code>
           </li>
         </div>
       
@@ -1187,7 +1187,7 @@
 
             
 
-            <code class="ruby">  #   # updates quantity after a buy transaction on a stock</code>
+            <code class="ruby">  #   end</code>
           </li>
         </div>
       
@@ -1198,7 +1198,7 @@
 
             
 
-            <code class="ruby">  #   # that we already hold</code>
+            <code class="ruby">  # end</code>
           </li>
         </div>
       
@@ -1209,7 +1209,7 @@
 
             
 
-            <code class="ruby">  # end</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -1220,29 +1220,29 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  # def update_quantity_held</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="100">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="100">
+            
             
 
             
 
-            <code class="ruby">  def create_trade_record(market, quantity, book_cost)</code>
+            <code class="ruby">  #   # updates quantity after a buy transaction on a stock</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="20" data-linenumber="101">
-            <span class="hits">20</span>
+          <li class="never" data-hits="" data-linenumber="101">
+            
             
 
             
 
-            <code class="ruby">    trade = {:market =&gt; market, :direction =&gt; &quot;BUY&quot;, :quantity =&gt; quantity,</code>
+            <code class="ruby">  #   # that we already hold</code>
           </li>
         </div>
       
@@ -1253,40 +1253,40 @@
 
             
 
-            <code class="ruby">      :book_cost =&gt; book_cost, :date =&gt; Time.now}</code>
+            <code class="ruby">  # end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="20" data-linenumber="103">
+          <li class="never" data-hits="" data-linenumber="103">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="104">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def create_trade_record(market, quantity, book_cost)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="20" data-linenumber="105">
             <span class="hits">20</span>
             
 
             
 
-            <code class="ruby">    @transactions &lt;&lt; trade</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="104">
-            
-            
-
-            
-
-            <code class="ruby">      # if the equity is already held,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="105">
-            
-            
-
-            
-
-            <code class="ruby">    # if current_holding_of(market) == true</code>
+            <code class="ruby">    trade = {:market =&gt; market, :direction =&gt; &quot;BUY&quot;, :quantity =&gt; quantity,</code>
           </li>
         </div>
       
@@ -1297,18 +1297,18 @@
 
             
 
-            <code class="ruby">    #   # update shit, which means add current purchases to existing purchases</code>
+            <code class="ruby">      :book_cost =&gt; book_cost, :date =&gt; Time.now}</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="107">
-            
-            
-
+          <li class="covered" data-hits="20" data-linenumber="107">
+            <span class="hits">20</span>
             
 
-            <code class="ruby">    #   # -- find the relevant hash in current_holdings for the equity in question</code>
+            
+
+            <code class="ruby">    @transactions &lt;&lt; trade</code>
           </li>
         </div>
       
@@ -1319,7 +1319,7 @@
 
             
 
-            <code class="ruby">    #   @current_holdings[market]</code>
+            <code class="ruby">      # if the equity is already held,</code>
           </li>
         </div>
       
@@ -1330,7 +1330,7 @@
 
             
 
-            <code class="ruby">    #   #  -- add the book_cost of current trade to average_buy_price in current_holdings</code>
+            <code class="ruby">    # if current_holding_of(market) == true</code>
           </li>
         </div>
       
@@ -1341,7 +1341,7 @@
 
             
 
-            <code class="ruby">    #   @current_holdings[market][:book_cost] = trade[:book_cost] + @current_holdings[market][:book_cost]</code>
+            <code class="ruby">    #   # update shit, which means add current purchases to existing purchases</code>
           </li>
         </div>
       
@@ -1352,7 +1352,7 @@
 
             
 
-            <code class="ruby">    #   #  -- add the quantity of current trade to quantity in current_holdings</code>
+            <code class="ruby">    #   # -- find the relevant hash in current_holdings for the equity in question</code>
           </li>
         </div>
       
@@ -1363,7 +1363,7 @@
 
             
 
-            <code class="ruby">    #   @current_holdings[market][:quantity] = trade[:quantity] + @current_holdings[market][:quantity]</code>
+            <code class="ruby">    #   @current_holdings[market]</code>
           </li>
         </div>
       
@@ -1374,7 +1374,7 @@
 
             
 
-            <code class="ruby">    # else # if the equity is NOT already held,</code>
+            <code class="ruby">    #   #  -- add the book_cost of current trade to average_buy_price in current_holdings</code>
           </li>
         </div>
       
@@ -1385,7 +1385,7 @@
 
             
 
-            <code class="ruby">    #   # add a new record</code>
+            <code class="ruby">    #   @current_holdings[market][:book_cost] = trade[:book_cost] + @current_holdings[market][:book_cost]</code>
           </li>
         </div>
       
@@ -1396,7 +1396,7 @@
 
             
 
-            <code class="ruby">    #   @current_holdings = {market =&gt; {:market =&gt; market, :quantity =&gt; quantity,</code>
+            <code class="ruby">    #   #  -- add the quantity of current trade to quantity in current_holdings</code>
           </li>
         </div>
       
@@ -1407,7 +1407,7 @@
 
             
 
-            <code class="ruby">    #     :book_cost =&gt; book_cost, :average_buy_price =&gt; book_cost }}</code>
+            <code class="ruby">    #   @current_holdings[market][:quantity] = trade[:quantity] + @current_holdings[market][:quantity]</code>
           </li>
         </div>
       
@@ -1418,7 +1418,7 @@
 
             
 
-            <code class="ruby">    # end</code>
+            <code class="ruby">    # else # if the equity is NOT already held,</code>
           </li>
         </div>
       
@@ -1429,18 +1429,18 @@
 
             
 
-            <code class="ruby">    #update the balance</code>
+            <code class="ruby">    #   # add a new record</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="20" data-linenumber="119">
-            <span class="hits">20</span>
+          <li class="never" data-hits="" data-linenumber="119">
+            
             
 
             
 
-            <code class="ruby">    @balance = @balance - book_cost</code>
+            <code class="ruby">    #   @current_holdings = {market =&gt; {:market =&gt; market, :quantity =&gt; quantity,</code>
           </li>
         </div>
       
@@ -1451,7 +1451,7 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">    #     :book_cost =&gt; book_cost, :average_buy_price =&gt; book_cost }}</code>
           </li>
         </div>
       
@@ -1462,29 +1462,29 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    # end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="122">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="122">
+            
             
 
             
 
-            <code class="ruby">  def update_current_holdings(market, quantity, book_cost)</code>
+            <code class="ruby">    #update the balance</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="4" data-linenumber="123">
-            <span class="hits">4</span>
+          <li class="covered" data-hits="20" data-linenumber="123">
+            <span class="hits">20</span>
             
 
             
 
-            <code class="ruby">    if current_holding_of(market) == true</code>
+            <code class="ruby">    @balance = @balance - book_cost</code>
           </li>
         </div>
       
@@ -1495,7 +1495,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -1506,29 +1506,29 @@
 
             
 
-            <code class="ruby">      else</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="126">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="126">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">        # {:market =&gt; &quot;ULVR&quot;, :direction =&gt; &quot;BUY&quot;, :quantity =&gt; 300, :average_buy_price =&gt; 100}</code>
+            
+
+            <code class="ruby">  def update_current_holdings(market, quantity, book_cost)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="127">
-            
-            
-
+          <li class="covered" data-hits="4" data-linenumber="127">
+            <span class="hits">4</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">    if current_holding_of(market) == true</code>
           </li>
         </div>
       
@@ -1550,7 +1550,7 @@
 
             
 
-            <code class="ruby">    # {:market =&gt; &quot;ULVR&quot;, :direction =&gt; &quot;BUY&quot;, :quantity =&gt; 300, :book_cost =&gt; 3000, :average_buy_price =&gt; 100}</code>
+            <code class="ruby">      else</code>
           </li>
         </div>
       
@@ -1561,7 +1561,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">        # {:market =&gt; &quot;ULVR&quot;, :direction =&gt; &quot;BUY&quot;, :quantity =&gt; 300, :average_buy_price =&gt; 100}</code>
           </li>
         </div>
       
@@ -1572,7 +1572,7 @@
 
             
 
-            <code class="ruby">    # if the equity is NOT already held, simply add it to check_current_holdings</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
@@ -1594,7 +1594,7 @@
 
             
 
-            <code class="ruby">    # if the equity is already held:</code>
+            <code class="ruby">    # {:market =&gt; &quot;ULVR&quot;, :direction =&gt; &quot;BUY&quot;, :quantity =&gt; 300, :book_cost =&gt; 3000, :average_buy_price =&gt; 100}</code>
           </li>
         </div>
       
@@ -1616,7 +1616,7 @@
 
             
 
-            <code class="ruby">    # if the transaction was a BUY,</code>
+            <code class="ruby">    # if the equity is NOT already held, simply add it to check_current_holdings</code>
           </li>
         </div>
       
@@ -1638,7 +1638,7 @@
 
             
 
-            <code class="ruby">    # calculate and update new average buy price</code>
+            <code class="ruby">    # if the equity is already held:</code>
           </li>
         </div>
       
@@ -1649,7 +1649,7 @@
 
             
 
-            <code class="ruby">    # calculate and update the held quantity</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -1660,7 +1660,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    # if the transaction was a BUY,</code>
           </li>
         </div>
       
@@ -1671,7 +1671,7 @@
 
             
 
-            <code class="ruby">    # if the transaction was a SELL</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -1682,7 +1682,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    # calculate and update new average buy price</code>
           </li>
         </div>
       
@@ -1704,7 +1704,7 @@
 
             
 
-            <code class="ruby">    # calculate and update the new book cost</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -1715,51 +1715,51 @@
 
             
 
+            <code class="ruby">    # if the transaction was a SELL</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="145">
+            
+            
+
+            
+
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="4" data-linenumber="145">
-            <span class="hits">4</span>
+          <li class="never" data-hits="" data-linenumber="146">
+            
             
 
             
 
-            <code class="ruby">    all = @transactions.select { |holding| holding[:market] === market }</code>
+            <code class="ruby">    # calculate and update the held quantity</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="4" data-linenumber="146">
-            <span class="hits">4</span>
+          <li class="never" data-hits="" data-linenumber="147">
+            
             
 
             
 
-            <code class="ruby">    buys = all.map { |b| b[:direction] === &quot;BUY&quot;}</code>
+            <code class="ruby">    # calculate and update the new book cost</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="4" data-linenumber="147">
-            <span class="hits">4</span>
+          <li class="never" data-hits="" data-linenumber="148">
+            
             
 
             
 
-            <code class="ruby">    total_quantity = buys.map { |h| h[:quantity]}.reduce(0, :+)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="4" data-linenumber="148">
-            <span class="hits">4</span>
-            
-
-            
-
-            <code class="ruby">    total_cost = buys.map { |c| c[:book_cost]}.reduce(0, :+)</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -1770,7 +1770,7 @@
 
             
 
-            <code class="ruby">    new_total_quantity = total_quantity + quantity</code>
+            <code class="ruby">    all = @transactions.select { |holding| holding[:market] === market }</code>
           </li>
         </div>
       
@@ -1781,18 +1781,18 @@
 
             
 
-            <code class="ruby">    new_total_cost = total_cost + book_cost</code>
+            <code class="ruby">    buys = all.map { |b| b[:direction] === &quot;BUY&quot;}</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="151">
-            
-            
-
+          <li class="covered" data-hits="4" data-linenumber="151">
+            <span class="hits">4</span>
             
 
-            <code class="ruby">    # average_buy_price = new_total_quantity / new_total_cost</code>
+            
+
+            <code class="ruby">    total_quantity = buys.map { |h| h[:quantity]}.reduce(0, :+)</code>
           </li>
         </div>
       
@@ -1803,29 +1803,29 @@
 
             
 
-            <code class="ruby">    @current_holdings[market] = {:market =&gt; market, :quantity =&gt; new_total_quantity, :book_cost =&gt; new_total_cost}</code>
+            <code class="ruby">    total_cost = buys.map { |c| c[:book_cost]}.reduce(0, :+)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="153">
-            
-            
-
+          <li class="covered" data-hits="4" data-linenumber="153">
+            <span class="hits">4</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">    new_total_quantity = total_quantity + quantity</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="154">
-            
-            
-
+          <li class="covered" data-hits="4" data-linenumber="154">
+            <span class="hits">4</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">    new_total_cost = total_cost + book_cost</code>
           </li>
         </div>
       
@@ -1836,18 +1836,18 @@
 
             
 
-            <code class="ruby">  # def book_the_trade(market, quantity, proceeds)</code>
+            <code class="ruby">    # average_buy_price = new_total_quantity / new_total_cost</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="156">
-            
-            
-
+          <li class="covered" data-hits="4" data-linenumber="156">
+            <span class="hits">4</span>
             
 
-            <code class="ruby">  #   average_buy_price = @current_holdings[market]</code>
+            
+
+            <code class="ruby">    @current_holdings[market] = {:market =&gt; market, :quantity =&gt; new_total_quantity, :book_cost =&gt; new_total_cost}</code>
           </li>
         </div>
       
@@ -1858,7 +1858,7 @@
 
             
 
-            <code class="ruby">  #   porl = proceeds - average_buy_price</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -1869,7 +1869,7 @@
 
             
 
-            <code class="ruby">  #   trade = {:sell_date =&gt; Time.now, :quantity =&gt; quantity, :proceeds =&gt; proceeds, :porl =&gt; porl}</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -1880,7 +1880,7 @@
 
             
 
-            <code class="ruby">  #   @ledger &lt;&lt; trade</code>
+            <code class="ruby">  # def book_the_trade(market, quantity, proceeds)</code>
           </li>
         </div>
       
@@ -1891,7 +1891,7 @@
 
             
 
-            <code class="ruby">  # end</code>
+            <code class="ruby">  #   average_buy_price = @current_holdings[market]</code>
           </li>
         </div>
       
@@ -1902,12 +1902,56 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  #   porl = proceeds - average_buy_price</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="162">
+            
+            
+
+            
+
+            <code class="ruby">  #   trade = {:sell_date =&gt; Time.now, :quantity =&gt; quantity, :proceeds =&gt; proceeds, :porl =&gt; porl}</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="163">
+            
+            
+
+            
+
+            <code class="ruby">  #   @ledger &lt;&lt; trade</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="164">
+            
+            
+
+            
+
+            <code class="ruby">  # end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="165">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="166">
             
             
 
@@ -1936,8 +1980,8 @@
     
 
     <div class="t-line-summary">
-      <b>96</b> relevant lines.
-      <span class="green"><b>96</b> lines covered</span> and
+      <b>102</b> relevant lines.
+      <span class="green"><b>102</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -2483,7 +2527,7 @@
 
             
 
-            <code class="ruby">  it &#39;does not have a #test method&#39; do</code>
+            <code class="ruby">  it &#39;can record receipt of a dividend payment&#39; do</code>
           </li>
         </div>
       
@@ -2494,29 +2538,29 @@
 
             
 
-            <code class="ruby">    expect(StockTracker.new).not_to respond_to(:test)</code>
+            <code class="ruby">    account = StockTracker.new</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="51">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="51">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">    account.deposit_funds(100)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="52">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="52">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">    expect(account.dividends.length).to eq(0)</code>
           </li>
         </div>
       
@@ -2527,7 +2571,7 @@
 
             
 
-            <code class="ruby">  it &#39;has a #sell method&#39; do</code>
+            <code class="ruby">    account.dividend(&quot;ULVR&quot;, 33.41)</code>
           </li>
         </div>
       
@@ -2538,7 +2582,7 @@
 
             
 
-            <code class="ruby">    expect(StockTracker.new).to respond_to(:sell)</code>
+            <code class="ruby">    expect(account.dividends.length).to eq(1)</code>
           </li>
         </div>
       
@@ -2571,7 +2615,7 @@
 
             
 
-            <code class="ruby">  it &#39;has a #check_current_holdings method&#39; do</code>
+            <code class="ruby">  it &#39;does not have a #test method&#39; do</code>
           </li>
         </div>
       
@@ -2582,7 +2626,7 @@
 
             
 
-            <code class="ruby">    expect(StockTracker.new).to respond_to(:check_current_holdings_of)</code>
+            <code class="ruby">    expect(StockTracker.new).not_to respond_to(:test)</code>
           </li>
         </div>
       
@@ -2615,7 +2659,7 @@
 
             
 
-            <code class="ruby">  it &#39;can find a particular value in the current_holdings array of hashes&#39; do</code>
+            <code class="ruby">  it &#39;has a #sell method&#39; do</code>
           </li>
         </div>
       
@@ -2626,29 +2670,29 @@
 
             
 
-            <code class="ruby">    account = StockTracker.new</code>
+            <code class="ruby">    expect(StockTracker.new).to respond_to(:sell)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="63">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="63">
+            
             
 
             
 
-            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 4040.40)</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="64">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="64">
+            
             
 
             
 
-            <code class="ruby">    expect(account.transactions[0][:market]).to eq(&quot;ULVR&quot;)</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -2659,18 +2703,18 @@
 
             
 
-            <code class="ruby">    expect(account.transactions[0][:quantity]).to eq(300)</code>
+            <code class="ruby">  it &#39;has a #check_current_holdings method&#39; do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="66">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="66">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">    expect(StockTracker.new).to respond_to(:check_current_holdings_of)</code>
           </li>
         </div>
       
@@ -2681,18 +2725,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="68">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="68">
+            
             
 
             
 
-            <code class="ruby">  it &#39;can check whether a current stock is already held&#39; do</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -2703,7 +2747,7 @@
 
             
 
-            <code class="ruby">    account = StockTracker.new</code>
+            <code class="ruby">  it &#39;can find a particular value in the current_holdings array of hashes&#39; do</code>
           </li>
         </div>
       
@@ -2714,7 +2758,7 @@
 
             
 
-            <code class="ruby">    trade = account.create_trade_record(&quot;ULVR&quot;, 300, 3030.30)</code>
+            <code class="ruby">    account = StockTracker.new</code>
           </li>
         </div>
       
@@ -2725,309 +2769,12 @@
 
             
 
-            <code class="ruby">    expect(account.check_current_holdings_of(&quot;ULVR&quot;)).to eq(true)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="72">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="73">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="74">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  it &#39;if a stock is held, will tell you the quantity held&#39; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="75">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account = StockTracker.new</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="76">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 3030.30)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="77">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 400, 3030.30)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="78">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account.create_trade_record(&quot;BATS&quot;, 500, 3030.30)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="79">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account.create_trade_record(&quot;AMZN&quot;, 43, 32094.40)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="80">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(account.what_is_current_holding_of(&quot;ULVR&quot;)).to eq(&quot;You currently hold 700 shares in ULVR, at a cost of 6060.6&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="81">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="82">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="83">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  it &#39;if a stock is held, will tell you the quantity held and the total cost&#39; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="84">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account = StockTracker.new</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="85">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 3030.30)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="86">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 400, 3030.30)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="87">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account.create_trade_record(&quot;BATS&quot;, 500, 3030.30)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="88">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account.create_trade_record(&quot;AMZN&quot;, 43, 32094.40)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="89">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(account.what_is_current_holding_of(&quot;BATS&quot;)).to eq(&quot;You currently hold 500 shares in BATS, at a cost of 3030.3&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="90">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="91">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="92">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  it &#39;has a #create_trade_record&#39; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="93">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(StockTracker.new).to respond_to(:create_trade_record)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="94">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="95">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="96">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  it &#39;#create_trade_record creates a hash&#39; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="97">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account = StockTracker.new</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="98">
-            <span class="hits">1</span>
-            
-
-            
-
             <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 4040.40)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="99">
+          <li class="covered" data-hits="1" data-linenumber="72">
             <span class="hits">1</span>
             
 
@@ -3038,7 +2785,18 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="100">
+          <li class="covered" data-hits="1" data-linenumber="73">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(account.transactions[0][:quantity]).to eq(300)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="74">
             
             
 
@@ -3049,7 +2807,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="101">
+          <li class="never" data-hits="" data-linenumber="75">
             
             
 
@@ -3060,24 +2818,310 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="102">
+          <li class="covered" data-hits="1" data-linenumber="76">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">  it &#39;#sell method checks to see if you hold a stock before it lets you sell it&#39; do</code>
+            <code class="ruby">  it &#39;can check whether a current stock is already held&#39; do</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="103">
+          <li class="covered" data-hits="1" data-linenumber="77">
             <span class="hits">1</span>
             
 
             
 
             <code class="ruby">    account = StockTracker.new</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="78">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    trade = account.create_trade_record(&quot;ULVR&quot;, 300, 3030.30)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="79">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(account.check_current_holdings_of(&quot;ULVR&quot;)).to eq(true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="80">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="81">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="82">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;if a stock is held, will tell you the quantity held&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="83">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account = StockTracker.new</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="84">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 3030.30)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="85">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 400, 3030.30)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="86">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;BATS&quot;, 500, 3030.30)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="87">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;AMZN&quot;, 43, 32094.40)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="88">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(account.what_is_current_holding_of(&quot;ULVR&quot;)).to eq(&quot;You currently hold 700 shares in ULVR, at a cost of 6060.6&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="89">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="90">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="91">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;if a stock is held, will tell you the quantity held and the total cost&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="92">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account = StockTracker.new</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="93">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 3030.30)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="94">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 400, 3030.30)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="95">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;BATS&quot;, 500, 3030.30)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="96">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;AMZN&quot;, 43, 32094.40)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="97">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(account.what_is_current_holding_of(&quot;BATS&quot;)).to eq(&quot;You currently hold 500 shares in BATS, at a cost of 3030.3&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="98">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="99">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="100">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;has a #create_trade_record&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="101">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(StockTracker.new).to respond_to(:create_trade_record)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="102">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="103">
+            
+            
+
+            
+
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -3088,7 +3132,7 @@
 
             
 
-            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 3030.30)</code>
+            <code class="ruby">  it &#39;#create_trade_record creates a hash&#39; do</code>
           </li>
         </div>
       
@@ -3099,7 +3143,7 @@
 
             
 
-            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 400, 3030.30)</code>
+            <code class="ruby">    account = StockTracker.new</code>
           </li>
         </div>
       
@@ -3110,7 +3154,7 @@
 
             
 
-            <code class="ruby">    account.create_trade_record(&quot;BATS&quot;, 500, 3030.30)</code>
+            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 4040.40)</code>
           </li>
         </div>
       
@@ -3121,18 +3165,18 @@
 
             
 
-            <code class="ruby">    account.create_trade_record(&quot;AMZN&quot;, 43, 32094.40)</code>
+            <code class="ruby">    expect(account.transactions[0][:market]).to eq(&quot;ULVR&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="108">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="108">
+            
             
 
             
 
-            <code class="ruby">    expect(account.sell(&quot;GOOG&quot;, 100, 2030.00)).to eq(&quot;You cannot sell what you do not have&quot;)</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -3143,18 +3187,18 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="110">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="110">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">  it &#39;#sell method checks to see if you hold a stock before it lets you sell it&#39; do</code>
           </li>
         </div>
       
@@ -3165,7 +3209,7 @@
 
             
 
-            <code class="ruby">  it &#39;returns updated current quantity when a sale takes place&#39; do</code>
+            <code class="ruby">    account = StockTracker.new</code>
           </li>
         </div>
       
@@ -3176,7 +3220,7 @@
 
             
 
-            <code class="ruby">    account = StockTracker.new</code>
+            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 3030.30)</code>
           </li>
         </div>
       
@@ -3187,7 +3231,7 @@
 
             
 
-            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 3030.30)</code>
+            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 400, 3030.30)</code>
           </li>
         </div>
       
@@ -3198,7 +3242,7 @@
 
             
 
-            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 400, 3030.30)</code>
+            <code class="ruby">    account.create_trade_record(&quot;BATS&quot;, 500, 3030.30)</code>
           </li>
         </div>
       
@@ -3209,7 +3253,7 @@
 
             
 
-            <code class="ruby">    account.create_trade_record(&quot;BATS&quot;, 500, 3030.30)</code>
+            <code class="ruby">    account.create_trade_record(&quot;AMZN&quot;, 43, 32094.40)</code>
           </li>
         </div>
       
@@ -3220,23 +3264,12 @@
 
             
 
-            <code class="ruby">    account.create_trade_record(&quot;AMZN&quot;, 43, 32094.40)</code>
+            <code class="ruby">    expect(account.sell(&quot;GOOG&quot;, 100, 2030.00)).to eq(&quot;You cannot sell what you do not have&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="117">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(account.sell(&quot;ULVR&quot;, 100, 3921)).to eq(600)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="118">
+          <li class="never" data-hits="" data-linenumber="117">
             
             
 
@@ -3247,7 +3280,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="119">
+          <li class="never" data-hits="" data-linenumber="118">
             
             
 
@@ -3258,68 +3291,79 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="120">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="119">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  # it &#39;updates :average_book_roast of holding if stock already held&#39; do</code>
+            
+
+            <code class="ruby">  it &#39;returns updated current quantity when a sale takes place&#39; do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="121">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="120">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  #   account = StockTracker.new</code>
+            
+
+            <code class="ruby">    account = StockTracker.new</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="122">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="121">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  #   account.create_trade_record(&quot;ULVR&quot;, 500, 1000.00)</code>
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 3030.30)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="123">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="122">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  #   expect(account.current_holdings[&quot;ULVR&quot;][:average_cost_per_share]).to eq(2)</code>
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 400, 3030.30)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="124">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="123">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  #   account.create_trade_record(&quot;ULVR&quot;, 500, 2000.00)</code>
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;BATS&quot;, 500, 3030.30)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="125">
+          <li class="covered" data-hits="1" data-linenumber="124">
+            <span class="hits">1</span>
             
+
+            
+
+            <code class="ruby">    account.create_trade_record(&quot;AMZN&quot;, 43, 32094.40)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="125">
+            <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">  #   expect(account.current_holdings[&quot;ULVR&quot;][:average_buy_price]).to eq(3)</code>
+            <code class="ruby">    expect(account.sell(&quot;ULVR&quot;, 100, 3921)).to eq(600)</code>
           </li>
         </div>
       
@@ -3330,7 +3374,7 @@
 
             
 
-            <code class="ruby">  # end</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -3346,79 +3390,79 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="128">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="128">
+            
             
 
             
 
-            <code class="ruby">  it &#39;tracks balance through several transactions&#39; do</code>
+            <code class="ruby">  # it &#39;updates :average_book_roast of holding if stock already held&#39; do</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="129">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="129">
+            
             
 
             
 
-            <code class="ruby">    account = StockTracker.new</code>
+            <code class="ruby">  #   account = StockTracker.new</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="130">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="130">
+            
             
 
             
 
-            <code class="ruby">    account.deposit_funds(10000)</code>
+            <code class="ruby">  #   account.create_trade_record(&quot;ULVR&quot;, 500, 1000.00)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="131">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="131">
+            
             
 
             
 
-            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 5000.00)</code>
+            <code class="ruby">  #   expect(account.current_holdings[&quot;ULVR&quot;][:average_cost_per_share]).to eq(2)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="132">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="132">
+            
             
 
             
 
-            <code class="ruby">    expect(account.balance).to eq(5000)</code>
+            <code class="ruby">  #   account.create_trade_record(&quot;ULVR&quot;, 500, 2000.00)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="133">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="133">
+            
             
 
             
 
-            <code class="ruby">    account.sell(&quot;ULVR&quot;, 300, 6000.00)</code>
+            <code class="ruby">  #   expect(account.current_holdings[&quot;ULVR&quot;][:average_buy_price]).to eq(3)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="134">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="134">
+            
             
 
             
 
-            <code class="ruby">    expect(account.balance).to eq(11000)</code>
+            <code class="ruby">  # end</code>
           </li>
         </div>
       
@@ -3429,18 +3473,18 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="136">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="136">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">  it &#39;tracks balance through several transactions&#39; do</code>
           </li>
         </div>
       
@@ -3451,7 +3495,7 @@
 
             
 
-            <code class="ruby">  it &#39;will not let you buy if you do not have enough funds&#39; do</code>
+            <code class="ruby">    account = StockTracker.new</code>
           </li>
         </div>
       
@@ -3462,7 +3506,7 @@
 
             
 
-            <code class="ruby">    account = StockTracker.new</code>
+            <code class="ruby">    account.deposit_funds(10000)</code>
           </li>
         </div>
       
@@ -3473,7 +3517,7 @@
 
             
 
-            <code class="ruby">    account.buy(&quot;ULVR&quot;, 300, 3000.00)</code>
+            <code class="ruby">    account.create_trade_record(&quot;ULVR&quot;, 300, 5000.00)</code>
           </li>
         </div>
       
@@ -3484,12 +3528,34 @@
 
             
 
-            <code class="ruby">    expect(account.buy(&quot;ULVR&quot;, 300, 3000.00)).to eq(&quot;Insufficient funds.&quot;)</code>
+            <code class="ruby">    expect(account.balance).to eq(5000)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="141">
+          <li class="covered" data-hits="1" data-linenumber="141">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account.sell(&quot;ULVR&quot;, 300, 6000.00)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="142">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(account.balance).to eq(11000)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="143">
             
             
 
@@ -3500,35 +3566,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="142">
+          <li class="never" data-hits="" data-linenumber="144">
             
             
 
             
 
             <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="143">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  it &#39;#update_current_holdings inceases the @current_holdings hash by 1&#39; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="144">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account = StockTracker.new</code>
           </li>
         </div>
       
@@ -3539,7 +3583,7 @@
 
             
 
-            <code class="ruby">    account.update_current_holdings(&quot;ULVR&quot;, 100, 1000)</code>
+            <code class="ruby">  it &#39;will not let you buy if you do not have enough funds&#39; do</code>
           </li>
         </div>
       
@@ -3550,12 +3594,34 @@
 
             
 
-            <code class="ruby">    expect(account.current_holdings.length).to eq(1)</code>
+            <code class="ruby">    account = StockTracker.new</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="147">
+          <li class="covered" data-hits="1" data-linenumber="147">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    account.buy(&quot;ULVR&quot;, 300, 3000.00)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="148">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(account.buy(&quot;ULVR&quot;, 300, 3000.00)).to eq(&quot;Insufficient funds.&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="149">
             
             
 
@@ -3566,7 +3632,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="148">
+          <li class="never" data-hits="" data-linenumber="150">
             
             
 
@@ -3577,35 +3643,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="149">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  it &#39;#update_current_holdings updates the book cost&#39; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="150">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    account = StockTracker.new</code>
-          </li>
-        </div>
-      
-        <div>
           <li class="covered" data-hits="1" data-linenumber="151">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    account.update_current_holdings(&quot;ULVR&quot;, 100, 1000)</code>
+            <code class="ruby">  it &#39;#update_current_holdings inceases the @current_holdings hash by 1&#39; do</code>
           </li>
         </div>
       
@@ -3616,7 +3660,7 @@
 
             
 
-            <code class="ruby">    account.update_current_holdings(&quot;BATS&quot;, 50, 5000)</code>
+            <code class="ruby">    account = StockTracker.new</code>
           </li>
         </div>
       
@@ -3627,7 +3671,7 @@
 
             
 
-            <code class="ruby">    account.update_current_holdings(&quot;ULVR&quot;, 200, 1000)</code>
+            <code class="ruby">    account.update_current_holdings(&quot;ULVR&quot;, 100, 1000)</code>
           </li>
         </div>
       
@@ -3638,7 +3682,7 @@
 
             
 
-            <code class="ruby">    expect(account.current_holdings[&quot;ULVR&quot;][:quantity]).to eq(200)</code>
+            <code class="ruby">    expect(account.current_holdings.length).to eq(1)</code>
           </li>
         </div>
       
@@ -3665,68 +3709,68 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="157">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="157">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  # it &#39;current_holdings hash structure when taking multiple records&#39; do</code>
+            
+
+            <code class="ruby">  it &#39;#update_current_holdings updates the book cost&#39; do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="158">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="158">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  #   account = StockTracker.new</code>
+            
+
+            <code class="ruby">    account = StockTracker.new</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="159">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="159">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  #   account.current_holdings = {&quot;ULVR&quot; =&gt; {:market = &quot;ULVR&quot;, :quantity =&gt; 100, :book_cost =&gt; 1000, :average_buy_price =&gt; 1000}}</code>
+            
+
+            <code class="ruby">    account.update_current_holdings(&quot;ULVR&quot;, 100, 1000)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="160">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="160">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  #   account.current_holdings = {&quot;BATS&quot; =&gt; {:market = &quot;BATS&quot;, :quantity =&gt; 100, :book_cost =&gt; 1000, :average_buy_price =&gt; 1000}}</code>
+            
+
+            <code class="ruby">    account.update_current_holdings(&quot;BATS&quot;, 50, 5000)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="161">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="161">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  #   expect(account.current_holdings).to eq({&quot;ULVR&quot; =&gt; {:market = &quot;ULVR&quot;, :quantity =&gt; 100, :book_cost =&gt; 1000, :average_buy_price =&gt; 1000}, &quot;BATS&quot; =&gt; {:market = &quot;BATS&quot;, :quantity =&gt; 100, :book_cost =&gt; 1000, :average_buy_price =&gt; 1000}})</code>
+            
+
+            <code class="ruby">    account.update_current_holdings(&quot;ULVR&quot;, 200, 1000)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="162">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="162">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  # end</code>
+            
+
+            <code class="ruby">    expect(account.current_holdings[&quot;ULVR&quot;][:quantity]).to eq(200)</code>
           </li>
         </div>
       
@@ -3737,7 +3781,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -3754,6 +3798,94 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="165">
+            
+            
+
+            
+
+            <code class="ruby">  # it &#39;current_holdings hash structure when taking multiple records&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="166">
+            
+            
+
+            
+
+            <code class="ruby">  #   account = StockTracker.new</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="167">
+            
+            
+
+            
+
+            <code class="ruby">  #   account.current_holdings = {&quot;ULVR&quot; =&gt; {:market = &quot;ULVR&quot;, :quantity =&gt; 100, :book_cost =&gt; 1000, :average_buy_price =&gt; 1000}}</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="168">
+            
+            
+
+            
+
+            <code class="ruby">  #   account.current_holdings = {&quot;BATS&quot; =&gt; {:market = &quot;BATS&quot;, :quantity =&gt; 100, :book_cost =&gt; 1000, :average_buy_price =&gt; 1000}}</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="169">
+            
+            
+
+            
+
+            <code class="ruby">  #   expect(account.current_holdings).to eq({&quot;ULVR&quot; =&gt; {:market = &quot;ULVR&quot;, :quantity =&gt; 100, :book_cost =&gt; 1000, :average_buy_price =&gt; 1000}, &quot;BATS&quot; =&gt; {:market = &quot;BATS&quot;, :quantity =&gt; 100, :book_cost =&gt; 1000, :average_buy_price =&gt; 1000}})</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="170">
+            
+            
+
+            
+
+            <code class="ruby">  # end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="171">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="172">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="173">
             
             
 

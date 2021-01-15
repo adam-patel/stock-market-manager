@@ -46,6 +46,14 @@ describe StockTracker do
     expect(account.balance).to eq(100)
   end
 
+  it 'can record receipt of a dividend payment' do
+    account = StockTracker.new
+    account.deposit_funds(100)
+    expect(account.dividends.length).to eq(0)
+    account.dividend("ULVR", 33.41)
+    expect(account.dividends.length).to eq(1)
+  end
+
   it 'does not have a #test method' do
     expect(StockTracker.new).not_to respond_to(:test)
   end

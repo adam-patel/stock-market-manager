@@ -19,12 +19,13 @@ Currently, users can:
 - the account will not let the balance fall below zero
 - record the opening of a position
 - record the closing of a position
+- record receipt of a dividend payment
 
 # How To Use
 
 ## Account.buy
 
-account.buy is used to record a trade. 
+account.buy is used to record a trade.
 This method requires three arguments:
 
 - Stock ticker

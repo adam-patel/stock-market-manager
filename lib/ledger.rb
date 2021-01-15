@@ -1,12 +1,13 @@
 class StockTracker
 
-attr_accessor :transactions, :current_holdings, :balance
+attr_accessor :transactions, :current_holdings, :balance, :dividends
 
   def initialize
     @transactions = []                 # lists every transaction
     @current_holdings = {}             # holds a summary of equities held (including average buy prices)
     @balance = 0
     @ledger = []
+    @dividends = []
   end
 
   def deposit_funds(amount)
@@ -48,6 +49,10 @@ attr_accessor :transactions, :current_holdings, :balance
     else
       return "You cannot sell what you do not have"
     end
+  end
+
+  def dividend(market, amount)
+    @dividends << {:market => market, :amount => amount }
   end
 
   def check_current_holdings_of(market)

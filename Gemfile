@@ -7,5 +7,7 @@ source "https://rubygems.org"
 gem 'sinatra'
 gem 'rspec'
 gem 'capybara'
-gem 'capybara/rspec'
 gem 'sinatra-flash'
+gem 'simplecov'
+gem 'rake'
+gem 'shotgun'
